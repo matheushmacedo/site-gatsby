@@ -5,7 +5,6 @@ import Footer from '../Footer'
 
 import "./layout.scss"
 import GlobalStyles from '../../styles/globalStyled'
-import { Link } from "gatsby"
 
 
 
@@ -14,10 +13,6 @@ const Layout = ({ children }) => {
     // eslint-disable-next-line global-require
     require("smooth-scroll")('a[href*="#"]')
   }
-
-  const ScrollToLink = () => (
-    <Link to="/#depoimentos">Scroll To DEPOIMENTOS</Link>
-  )
 
   return (
     <>

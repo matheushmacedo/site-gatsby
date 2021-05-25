@@ -32,7 +32,7 @@ const IndexPage = () => (
       <div className="col-lg-6 py-4 bg-light d-flex justify-content-center align-items-center">
         <div className="container">
           <h1 className="text-luiz text-center mb-5 text-break">Luiz Felipe Baggio - Hipnoterapeuta</h1>
-          <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send?phone=5516982436477&amp;text=" target="_blank" rel="noreferrer" className="text-center text-baggio" >
+          <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send?phone=5516982436477&amp;text=" className="text-center text-baggio" >
             <u> 
               <h2> 
                 Clique aqui e descubra o que a hipnose pode fazer por você.
@@ -208,7 +208,7 @@ const IndexPage = () => (
         />
         <div className="row">
           <div className="col-12 py-2 mb-3">
-            <a href="https://goo.gl/maps/nfqGC9db1Tps852y8" target="_blank">
+            <a href="https://goo.gl/maps/nfqGC9db1Tps852y8" target="_blank" rel="noreferrer">
               <Mapa />
             </a>
           </div>
