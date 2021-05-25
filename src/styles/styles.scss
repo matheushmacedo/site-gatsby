@@ -1,0 +1,16 @@
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "success":    red,
+    "luiz": #009888,
+    "baggio": #333333,
+    "baggio2": #5a595c,
+    "cinza":  #f6f6f6,
+    "gray-dark": #272c30,
+    "rodape": #4c5056
+  ),
+  $theme-colors
+);
+
+
+@import '~bootstrap/scss/bootstrap.scss';
