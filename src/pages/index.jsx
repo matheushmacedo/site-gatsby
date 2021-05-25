@@ -213,15 +213,16 @@ const IndexPage = () => (
             </a>
           </div>
           <div className="col-md-6">
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
               <div className="mb-3">
-                <input type="text" className="form-control" id="InputNome" aria-describedby="emailHelp" placeholder="Nome"/>
+                <input name="name" type="text" className="form-control" id="InputNome" aria-describedby="emailHelp" placeholder="Nome"/>
               </div>
               <div className="mb-3">
-                <input type="email" className="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="E-mail"/>
+                <input name="email" type="email" className="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="E-mail"/>
               </div>
               <div className="mb-3">
-                <textarea className="form-control" id="FormControlTextarea" rows="3" placeholder="Descrição"></textarea>
+                <textarea name="message" className="form-control" id="FormControlTextarea" rows="3" placeholder="Descrição"></textarea>
               </div>
               <button type="submit" className="btn btn-luiz mb-3">Enviar</button>
               <br/>
