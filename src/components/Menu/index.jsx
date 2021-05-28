@@ -50,10 +50,10 @@ const Menu = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto menu">
-            <Styled2.botao type="button" class="btn btn-light text-center" onClick={() => scrollTo('#home')}>Home</Styled2.botao>
-            <Styled2.botao type="button" class="btn btn-light" onClick={() => scrollTo('#sobre')}>Sobre</Styled2.botao>
-            <Styled2.botao type="button" class="btn btn-light" onClick={() => scrollTo('#depoimentos')}>Depoimentos</Styled2.botao>
-            <Styled2.botao type="button" class="btn btn-light" onClick={() => scrollTo('#contato')}>Contato</Styled2.botao>
+            <Styled2.botao type="button" class="btn btn-white text-center" onClick={() => scrollTo('#home')}>Home</Styled2.botao>
+            <Styled2.botao type="button" class="btn btn-white" onClick={() => scrollTo('#sobre')}>Sobre</Styled2.botao>
+            <Styled2.botao type="button" class="btn btn-white" onClick={() => scrollTo('#depoimentos')}>Depoimentos</Styled2.botao>
+            <Styled2.botao type="button" class="btn btn-white" onClick={() => scrollTo('#contato')}>Contato</Styled2.botao>
             
             
           </Nav>

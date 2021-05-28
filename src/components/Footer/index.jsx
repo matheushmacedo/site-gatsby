@@ -43,10 +43,10 @@ const Footer = () => {
                         </p>
                         <div className="col-lg-7 col-md-12 col-sm-4">
                           <a href={facebook} target="_blank" rel="noreferrer">
-                            <Styled.FacebookIcon />
+                            <Styled.InstagramIcon />
                           </a> 
                           <a href={instagram} target="_blank" rel="noreferrer">
-                            <Styled.InstagramIcon />
+                            <Styled.FacebookIcon />
                           </a> 
                           <a href={youtube} target="_blank" rel="noreferrer">
                             <Styled.YoutubeIcon />
